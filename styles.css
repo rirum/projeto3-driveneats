@@ -1,0 +1,180 @@
+.container {
+    width: 414px;
+    height: 934px;
+    background-color: pink;
+}
+
+
+.header {
+    width: 414px;
+    height: 92px;
+    background-color: #CF2B2B;
+    position: fixed;
+    top: 0;
+    left:0;
+    box-shadow: 0px 3px 2px 0 rgba(0, 0, 0, 0.2);
+    
+}
+
+.header h1 {
+    font-family: 'Righteous', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55px;
+    margin-left: 21px;
+    margin-top: 8px;
+}
+
+.header p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    margin-left: 21px;
+
+}
+
+
+/* Fim do Header */
+
+.conteudo {
+    margin-top: 92px;
+}
+.container-pratos {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.caixa-prato {
+    width: 172px;
+    height: 216px;
+    background-color: #ffffff;
+    border-radius: 9px;
+    display: flex;
+    margin-left: 19px;
+    
+    
+}
+.chamada-prato {
+    font-family: 'Righteous';
+    color: #333333;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-left: 19px;
+    margin-bottom: 17px;
+    padding-top: 31px;
+    
+    
+
+}
+
+
+.foto-prato img {
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+    margin-top: 18px;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.nome-prato {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 14px;
+   
+    margin-bottom: 8px; 
+}
+
+
+.descricao-prato {
+    font-family: 'Roboto';
+    color: #A6A6A6;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 300;
+    margin-left: 14px;
+    margin-top:4px;
+
+}
+
+.valor-prato {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 14px;
+   
+    margin-top: 9px;
+}
+
+.chamada-bebida { /*chamada bebida é mesmo necessário ?*/
+    font-family: 'Righteous';
+    color: #333333;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-left: 19px;
+    margin-bottom: 17px;
+    margin-top: 27px;
+
+}
+
+.caixa-bebida {
+    width: 172px;
+    height: 202px;
+    background-color: #ffffff;
+    border-radius: 9px;
+    display: flex;
+    margin-left: 19px;
+    
+    
+}
+
+.caixa-sobremesa {
+    width: 172px;
+    height: 197px;
+    background-color: #ffffff;
+    border-radius: 9px;
+    display: flex;
+    margin-left: 19px;
+}
+
+/* footer */
+.footer {
+    width: 414px;
+    height: 92px;
+    margin-top: 16px;
+    background-color: #ffffff;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.button {
+    text-align: center;
+    width: 364px;
+    height: 61px;
+    background-color: #CBCBCB;
+   display: flex;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-top: 15px;
+}
+
+.button p {
+    width: 200px;
+    color: #ffffff ;
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    align-self: center;
+    margin: 0 auto;
+    
+}
