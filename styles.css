@@ -13,6 +13,7 @@
     top: 0;
     left:0;
     box-shadow: 0px 3px 2px 0 rgba(0, 0, 0, 0.2);
+    z-index: 2;
     
 }
 
@@ -42,10 +43,11 @@
 .conteudo {
     margin-top: 92px;
 }
-.container-pratos {
+.container-pratos, .container-bebidas, .container-sobremesas {
     display: flex;
     overflow-x: scroll;
 }
+
 
 .caixa-prato {
     width: 172px;
@@ -54,6 +56,9 @@
     border-radius: 9px;
     display: flex;
     margin-left: 19px;
+    border: 5px solid white;
+    box-sizing: border-box;
+    position: relative;
     
     
 }
@@ -122,6 +127,7 @@
     margin-bottom: 17px;
     margin-top: 27px;
 
+
 }
 
 .caixa-bebida {
@@ -131,6 +137,7 @@
     border-radius: 9px;
     display: flex;
     margin-left: 19px;
+    position: relative;
     
     
 }
@@ -142,6 +149,36 @@
     border-radius: 9px;
     display: flex;
     margin-left: 19px;
+    position: relative;
+
+    
+}
+.caixa-geral {
+   
+     padding-bottom: 92px;
+}
+
+
+.ativo {
+  
+    border: 5px solid #32B72F;
+    box-sizing: border-box;
+        
+}
+
+.seta {
+   
+    position: absolute;
+    color: #32B72F;
+    right: 5px;
+    bottom: 5px;
+    display: none;
+
+}
+
+.seta-ativo {
+    
+   display: block;
 }
 
 /* footer */
@@ -177,4 +214,9 @@
     align-self: center;
     margin: 0 auto;
     
+}
+
+.button-ativo {
+    background-color: #32B72F;
+ 
 }
